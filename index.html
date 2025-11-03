@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Caveats, boundary fights, unpaid rates, title fraud – 8 nightmare legal issues that pop up mid-conveyancing and the 48-hour fixes that save your settlement.">
+    <meta name="keywords" content="conveyancing disputes, caveat removal, boundary dispute settlement, unpaid land tax, title defect, PEXA hold, section 32 breach">
+    <meta name="robots" content="index, follow">
+    <title>8 Legal Nightmares That Derail Settlement (And the 48-Hour Fixes)</title>
+    <link rel="canonical" href="https://www.firstclasslegal.com.au/legal-issues">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --alert: #e74c3c;
+            --fix: #27ae60;
+            --gold: #f4a261;
+            --navy: #1a5d57;
+            --light: #f8f9fa;
+            --dark: #2b2d42;
+            --radius: 18px;
+            --shadow: 0 10px 35px rgba(0,0,0,0.12);
+        }
+        * { box-sizing:border-box; margin:0; padding:0; }
+        body {
+            font-family:'Inter',sans-serif;
+            line-height:1.8;
+            color:var(--dark);
+            background:#fff;
+            font-size:16px;
+        }
+        h1,h2,h3 { font-family:'Playfair Display',serif; color:var(--navy); }
+        h1 { font-size:2.8rem; text-align:center; color: #ffffff; }
+        h2 { font-size:2.2rem; margin:3rem 0 1.5rem; padding-bottom:0.8rem; border-bottom:5px solid var(--gold); display:inline-block; }
+        p { margin-bottom:1.2rem; text-align:justify; }
+        a { color:var(--navy); text-decoration:none; font-weight:600; }
+        a:hover { color:var(--alert); }
+        .container { max-width:1100px; margin:0 auto; padding:0 1.5rem; }
+
+        header {
+            background:linear-gradient(135deg,var(--navy) 0%,#0f3d3a 100%);
+            color:white;
+            text-align:center;
+            padding:5rem 0 4rem;
+        }
+        .hero-title { font-size:3rem; margin-bottom:1rem; }
+        .hero-subtitle { font-size:1.3rem; max-width:800px; margin:0 auto 2rem; opacity:0.95; }
+        .cta {
+            background:var(--gold);
+            color:white;
+            padding:1rem 2.5rem;
+            border-radius:50px;
+            font-weight:700;
+            text-transform:uppercase;
+            letter-spacing:1px;
+            box-shadow:0 6px 20px rgba(244,162,97,0.4);
+            transition:all 0.3s;
+        }
+        .cta:hover { background:var(--alert); transform:translateY(-4px); }
+
+        main { padding:4rem 0 6rem; }
+        article { background:white; padding:3rem; border-radius:var(--radius); box-shadow:var(--shadow); }
+
+        .issue {
+            background:white;
+            border-left:7px solid var(--alert);
+            padding:2.2rem;
+            margin:2.8rem 0;
+            border-radius:var(--radius);
+            box-shadow:var(--shadow);
+            position:relative;
+            transition:transform 0.3s;
+        }
+        .issue:hover { transform:translateY(-10px); }
+        .number {
+            position:absolute;
+            top:-20px;
+            left:-20px;
+            background:var(--alert);
+            color:white;
+            width:62px;
+            height:62px;
+            border-radius:50%;
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            font-size:1.8rem;
+            font-weight:bold;
+            box-shadow:0 5px 18px rgba(231,76,60,0.5);
+        }
+        .panic { 
+            font-size:1.5rem;;font-weight:700;color:var(--alert);margin:0.8rem 0;
+        }
+        .story {
+            background:#fff5f5;
+            padding:1.3rem;
+            border-radius:12px;
+            border-left:5px solid var(--alert);
+            margin:1.2rem 0;
+            font-style:italic;
+        }
+        .rescue {
+            background:#d4edda;
+            padding:1.3rem;
+            border-radius:12px;
+            border-left:5px solid var(--fix);
+            margin:1.2rem 0;
+        }
+        .rescue strong { color:var(--fix); }
+        .email { background:#f0f8ff; padding:1rem 1.5rem; border-radius:12px; border-left:4px solid var(--navy); margin:1rem 0; }
+        .form { background:#fff8e6; padding:1rem 1.5rem; border-radius:12px; border-left:4px solid var(--gold); margin:1rem 0; }
+
+        .summary {
+            width:100%;
+            border-collapse:collapse;
+            margin:3rem 0;
+            box-shadow:var(--shadow);
+            border-radius:var(--radius);
+            overflow:hidden;
+        }
+        .summary th {
+            background:var(--alert);
+            color:white;
+            padding:1.3rem;
+        }
+        .summary td { padding:1.1rem; border-bottom:1px solid #eee; }
+        .summary tr:nth-child(even) { background:#f8f9fa; }
+
+        .toc {
+            background:var(--light);
+            padding:2rem;
+            border-radius:var(--radius);
+            border:1px solid #eee;
+            margin:2rem 0;
+        }
+        .toc ul { columns:2; gap:2rem; list-style:none; }
+        .toc li { margin:0.7rem 0; position:relative; padding-left:2rem; }
+        .toc li::before { content:'Warning'; position:absolute; left:0; color:var(--alert); font-weight:bold; }
+
+        footer {
+            background:var(--dark);
+            color:#ccc;
+            text-align:center;
+            padding:2rem 0;
+            font-size:0.9rem;
+        }
+
+        @media (max-width:768px) {
+            .hero-title { font-size:2.3rem; }
+            .toc ul { columns:1; }
+            .number { width:50px; height:50px; font-size:1.4rem; top:-16px; left:-16px; }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <h1 class="hero-title">8 Legal Bombs That Explode Mid-Settlement<br>(And the 48-Hour Defusal Plans)</h1>
+        <p class="hero-subtitle">Caveats, boundary wars, $42K tax bombs, PEXA freezes – real 2025 disasters and the exact emails, forms and calls that saved the deal.</p>
+        <a href="https://www.firstclasslegal.com.au/" target="_blank" class="cta">Get My FREE 48-Hour Rescue Kit</a>
+    </div>
+</header>
+
+<main class="container">
+    <article>
+
+        <!-- Summary Table -->
+        <table class="summary">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Legal Issue</th>
+                    <th>Delay Risk</th>
+                    <th>48-Hour Fix</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>1</td><td>Sneaky Caveat</td><td>30–90 days</td><td>LPI Form 11 + $180 lodgement</td></tr>
+                <tr><td>2</td><td>Boundary Fight</td><td>6 months</td><td>ID Survey + signed boundary letter</td></tr>
+                <tr><td>3</td><td>$42K Land Tax</td><td>Settlement freeze</td><td>SRO clearance in 4 hrs</td></tr>
+                <tr><td>4</td><td>Title Defect</td><td>60 days</td><td>Rectification plan + indemnity</td></tr>
+                <tr><td>5</td><td>Heritage Stop-Work</td><td>12 months</td><td>Heritage permit variation</td></tr>
+                <tr><td>6</td><td>Strata Special Levy</td><td>Price drop $28K</td><td>Section 184 certificate</td></tr>
+                <tr><td>7</td><td>PEXA Verification Hold</td><td>24 hrs</td><td>Re-upload passport + rates notice</td></tr>
+                <tr><td>8</td><td>Deceased-Estate Mess</td><td>90 days</td><td>Transmission Application + probate</td></tr>
+            </tbody>
+        </table>
+
+        <!-- TOC -->
+        <div class="toc">
+            <h3>Jump to Any Crisis</h3>
+            <ul>
+                <li><a href="#i1">Issue 1 – Caveat Bomb</a></li>
+                <li><a href="#i2">Issue 2 – Fence War</a></li>
+                <li><a href="#i3">Issue 3 – $42K Tax Shock</a></li>
+                <li><a href="#i4">Issue 4 – Broken Title</a></li>
+                <li><a href="#i5">Issue 5 – Heritage Lock</a></li>
+                <li><a href="#i6">Issue 6 – Strata Levy</a></li>
+                <li><a href="#i7">Issue 7 – PEXA Freeze</a></li>
+                <li><a href="#i8">Issue 8 – Deceased Estate</a></li>
+            </ul>
+        </div>
+
+        <!-- Issue 1 -->
+        <div class="issue" id="i1">
+            <div class="number">1</div>
+            <h2>Issue 1: Last-Minute Caveat (30–90 Day Delay)</h2>
+            <p class="panic">Ex-partner lodges caveat 3 days before settlement</p>
+            <div class="story">
+                <strong>Melbourne 2025:</strong> Buyer ready to move in. Seller’s ex slaps caveat claiming 50% interest. Settlement frozen.
+            </div>
+            <div class="rescue">
+                <strong>48-Hour Fix:</strong><br>
+                1. Seller signs <strong>LPI Form 11 (Withdrawal of Caveat)</strong><br>
+                2. Conveyancer lodges online + $180 fee<br>
+                3. Caveat gone by 2 pm next day
+            </div>
+        </div>
+
+        <!-- Issue 2 -->
+        <div class="issue" id="i2">
+            <div class="number">2</div>
+            <h2>Issue 2: Neighbour Says Fence Is 80 cm Wrong</h2>
+            <p class="panic">Settlement halted until boundary confirmed</p>
+            <div class="rescue">
+                <strong>48-Hour Fix:</strong><br>
+                • Order <strong>Identification Survey</strong> ($1,200) – done in 24 hrs<br>
+                • Both neighbours sign <strong>Boundary Confirmation Letter</strong><br>
+                • Upload to PEXA → green light
+            </div>
+        </div>
+
+        <!-- Issue 3 -->
+        <div class="issue" id="i3">
+            <div class="number">3</div>
+            <h2>Issue 3: $42,000 Unpaid Land Tax</h2>
+            <p class="panic">PEXA blocks settlement until SRO clearance</p>
+            <div class="rescue">
+                <strong>4-Hour Fix:</strong><br>
+                • Seller pays online at <a href="https://osr.vic.gov.au">osr.vic.gov.au</a><br>
+                • Conveyancer emails clearance cert to PEXA<br>
+                • Funds flow by 11 am
+            </div>
+        </div>
+
+        <!-- Issue 4 -->
+        <div class="issue" id="i4">
+            <div class="number">4</div>
+            <h2>Issue 4: Title Defect (Old Mortgage Not Discharged)</h2>
+            <p class="panic">Bank won’t release title</p>
+            <div class="rescue">
+                <strong>48-Hour Fix:</strong><br>
+                • Lender emails <strong>Discharge Authority</strong><br>
+                • Conveyancer lodges Form 08DA + $145<br>
+                • Title clean by Day 2
+            </div>
+        </div>
+
+        <!-- Issue 5 -->
+        <div class="issue" id="i5">
+            <div class="number">5</div>
+            <h2>Issue 5: Heritage Victoria Stop-Work Order</h2>
+            <p class="panic">Can’t paint or extend</p>
+            <div class="rescue">
+                <strong>48-Hour Fix:</strong><br>
+                • Apply for <strong>Heritage Permit Variation</strong> online<br>
+                • Pay $480 expedited fee<br>
+                • Approval emailed in 36 hrs
+            </div>
+        </div>
+
+        <!-- Issue 6 -->
+        <div class="issue" id="i6">
+            <div class="number">6</div>
+            <h2>Issue 6: $28,000 Surprise Strata Levy</h2>
+            <p class="panic">Body corporate demands payment</p>
+            <div class="rescue">
+                <strong>24-Hour Fix:</strong><br>
+                • Order <strong>Section 184 Certificate</strong> ($45)<br>
+                • Levy added to adjustments → seller pays
+            </div>
+        </div>
+
+        <!-- Issue 7 -->
+        <div class="issue" id="i7">
+            <div class="number">7</div>
+            <h2>Issue 7: PEXA “Verification Failed” Freeze</h2>
+            <p class="panic">Settlement paused 2 hrs before</p>
+            <div class="rescue">
+                <strong>30-Minute Fix:</strong><br>
+                • Re-upload colour passport + rates notice<br>
+                • Conveyancer clicks “Resubmit VOI” → unlocked
+            </div>
+        </div>
+
+        <!-- Issue 8 -->
+        <div class="issue" id="i8">
+            <div class="number">8</div>
+            <h2>Issue 8: Deceased-Estate Title Jam</h2>
+            <p class="panic">No probate = no transfer</p>
+            <div class="rescue">
+                <strong>48-Hour Fix:</strong><br>
+                • Lodge <strong>Transmission Application</strong> + death cert<br>
+                • Pay $220 priority fee<br>
+                • Title updated by 3 pm Day 2
+            </div>
+        </div>
+
+        <!-- Final CTA -->
+        <div style="text-align:center; background:linear-gradient(135deg,#e6f4f1,#f0f8ff); padding:3.5rem; border-radius:18px; margin:4rem 0;">
+            <h2 style="font-size:2.3rem; border:none;">Never Miss Settlement Again</h2>
+            <p style="font-size:1.25rem; max-width:700px; margin:1.2rem auto;">
+                Download the <strong>FREE 48-Hour Legal Rescue Kit</strong> – 8 ready-to-send emails, 8 fill-in-the-blank forms, 8 phone scripts.
+            </p>
+            <a href="https://www.firstclasslegal.com.au/" target="_blank" class="cta" style="font-size:1.25rem; padding:1.3rem 3.2rem;">
+                YES – Send My Rescue Kit (60 sec)
+            </a>
+        </div>
+
+    </article>
+</main>
+
+<footer>
+    <div class="container">
+        © 2025 First Class Legal. All rights reserved.
+    </div>
+</footer>
+
+</body>
+</html>
